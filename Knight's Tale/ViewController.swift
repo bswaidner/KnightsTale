@@ -172,6 +172,7 @@ class ViewController: UIViewController {
         if !bgMusic.playing {
             bgMusic.play()
         }
+        bgMusic.numberOfLoops = -1
     }
     
     
