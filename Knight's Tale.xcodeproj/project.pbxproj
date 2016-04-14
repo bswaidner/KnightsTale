@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB37BE9C1CBC179E00C10EC3 /* orcsattack.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB37BE9B1CBC179E00C10EC3 /* orcsattack.wav */; };
+		CB37BE9E1CBC17A900C10EC3 /* knightsattack.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB37BE9D1CBC17A900C10EC3 /* knightsattack.wav */; };
+		CB37BEA01CBC17BA00C10EC3 /* chestopen.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB37BE9F1CBC17BA00C10EC3 /* chestopen.wav */; };
+		CB3D22C01CB96AEF00D22CF6 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D22BF1CB96AEF00D22CF6 /* Character.swift */; };
+		CB3D22C21CB96B4700D22CF6 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D22C11CB96B4700D22CF6 /* Knight.swift */; };
+		CB3D22C41CB96B5500D22CF6 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D22C31CB96B5500D22CF6 /* Orc.swift */; };
+		CB3D22CA1CBAB41800D22CF6 /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB3D22C91CBAB41800D22CF6 /* BackgroundMusic.mp3 */; };
+		CBB217951CB6995200D8DDBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB217941CB6995200D8DDBC /* AppDelegate.swift */; };
+		CBB217971CB6995200D8DDBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB217961CB6995200D8DDBC /* ViewController.swift */; };
+		CBB2179A1CB6995200D8DDBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB217981CB6995200D8DDBC /* Main.storyboard */; };
+		CBB2179C1CB6995200D8DDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB2179B1CB6995200D8DDBC /* Assets.xcassets */; };
+		CBB2179F1CB6995200D8DDBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB2179D1CB6995200D8DDBC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB37BE9B1CBC179E00C10EC3 /* orcsattack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = orcsattack.wav; sourceTree = "<group>"; };
+		CB37BE9D1CBC17A900C10EC3 /* knightsattack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = knightsattack.wav; sourceTree = "<group>"; };
+		CB37BE9F1CBC17BA00C10EC3 /* chestopen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chestopen.wav; sourceTree = "<group>"; };
+		CB3D22BF1CB96AEF00D22CF6 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CB3D22C11CB96B4700D22CF6 /* Knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		CB3D22C31CB96B5500D22CF6 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
+		CB3D22C91CBAB41800D22CF6 /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundMusic.mp3; sourceTree = "<group>"; };
+		CBB217911CB6995200D8DDBC /* Knight's Tale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knight's Tale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB217941CB6995200D8DDBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBB217961CB6995200D8DDBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBB217991CB6995200D8DDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBB2179B1CB6995200D8DDBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBB2179E1CB6995200D8DDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBB217A01CB6995200D8DDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB2178E1CB6995200D8DDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB217881CB6995200D8DDBC = {
+			isa = PBXGroup;
+			children = (
+				CBB217931CB6995200D8DDBC /* Knight's Tale */,
+				CBB217921CB6995200D8DDBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB217921CB6995200D8DDBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB217911CB6995200D8DDBC /* Knight's Tale.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB217931CB6995200D8DDBC /* Knight's Tale */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D22C91CBAB41800D22CF6 /* BackgroundMusic.mp3 */,
+				CB37BE9D1CBC17A900C10EC3 /* knightsattack.wav */,
+				CB37BE9B1CBC179E00C10EC3 /* orcsattack.wav */,
+				CB37BE9F1CBC17BA00C10EC3 /* chestopen.wav */,
+				CBB217941CB6995200D8DDBC /* AppDelegate.swift */,
+				CBB217961CB6995200D8DDBC /* ViewController.swift */,
+				CBB217981CB6995200D8DDBC /* Main.storyboard */,
+				CBB2179B1CB6995200D8DDBC /* Assets.xcassets */,
+				CBB2179D1CB6995200D8DDBC /* LaunchScreen.storyboard */,
+				CBB217A01CB6995200D8DDBC /* Info.plist */,
+				CB3D22BF1CB96AEF00D22CF6 /* Character.swift */,
+				CB3D22C11CB96B4700D22CF6 /* Knight.swift */,
+				CB3D22C31CB96B5500D22CF6 /* Orc.swift */,
+			);
+			path = "Knight's Tale";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB217901CB6995200D8DDBC /* Knight's Tale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB217A31CB6995200D8DDBC /* Build configuration list for PBXNativeTarget "Knight's Tale" */;
+			buildPhases = (
+				CBB2178D1CB6995200D8DDBC /* Sources */,
+				CBB2178E1CB6995200D8DDBC /* Frameworks */,
+				CBB2178F1CB6995200D8DDBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knight's Tale";
+			productName = "Knight's Tale";
+			productReference = CBB217911CB6995200D8DDBC /* Knight's Tale.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB217891CB6995200D8DDBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Blake Swaidner";
+				TargetAttributes = {
+					CBB217901CB6995200D8DDBC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VZN2WUL34L;
+					};
+				};
+			};
+			buildConfigurationList = CBB2178C1CB6995200D8DDBC /* Build configuration list for PBXProject "Knight's Tale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBB217881CB6995200D8DDBC;
+			productRefGroup = CBB217921CB6995200D8DDBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB217901CB6995200D8DDBC /* Knight's Tale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB2178F1CB6995200D8DDBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB37BEA01CBC17BA00C10EC3 /* chestopen.wav in Resources */,
+				CBB2179F1CB6995200D8DDBC /* LaunchScreen.storyboard in Resources */,
+				CBB2179C1CB6995200D8DDBC /* Assets.xcassets in Resources */,
+				CB3D22CA1CBAB41800D22CF6 /* BackgroundMusic.mp3 in Resources */,
+				CB37BE9E1CBC17A900C10EC3 /* knightsattack.wav in Resources */,
+				CBB2179A1CB6995200D8DDBC /* Main.storyboard in Resources */,
+				CB37BE9C1CBC179E00C10EC3 /* orcsattack.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB2178D1CB6995200D8DDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3D22C21CB96B4700D22CF6 /* Knight.swift in Sources */,
+				CB3D22C01CB96AEF00D22CF6 /* Character.swift in Sources */,
+				CBB217971CB6995200D8DDBC /* ViewController.swift in Sources */,
+				CB3D22C41CB96B5500D22CF6 /* Orc.swift in Sources */,
+				CBB217951CB6995200D8DDBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBB217981CB6995200D8DDBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB217991CB6995200D8DDBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBB2179D1CB6995200D8DDBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB2179E1CB6995200D8DDBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBB217A11CB6995200D8DDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBB217A21CB6995200D8DDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBB217A41CB6995200D8DDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Knight's Tale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swaidner.Knight-s-Tale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBB217A51CB6995200D8DDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Knight's Tale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swaidner.Knight-s-Tale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB2178C1CB6995200D8DDBC /* Build configuration list for PBXProject "Knight's Tale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB217A11CB6995200D8DDBC /* Debug */,
+				CBB217A21CB6995200D8DDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB217A31CB6995200D8DDBC /* Build configuration list for PBXNativeTarget "Knight's Tale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB217A41CB6995200D8DDBC /* Debug */,
+				CBB217A51CB6995200D8DDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB217891CB6995200D8DDBC /* Project object */;
+}
